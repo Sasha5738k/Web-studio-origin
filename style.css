@@ -218,3 +218,29 @@ body{
 .footer-logo{
 color: #FFFFFF;
 }
+.filters-list{
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;  
+}
+.portfolio-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.filters-list-btn{
+    border: none;
+    padding: 6px 22px;
+}
+.filters-list-btn:hover{
+    background-color: #2196F3;
+    cursor: pointer;
+    color: #FFFFFF;
+}
